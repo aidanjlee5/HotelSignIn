@@ -4,8 +4,9 @@
 public class Room{
   private String name, status, roomPlan;
   private int roomNum;
+  private double balance; 
 
-  public Room(String guest, int number, String occupancy, String roomType, int bal) {
+  public Room(String guest, int number, String occupancy, String roomType, double bal) {
     name = guest;
     roomNum = number;
     status = occupancy;
